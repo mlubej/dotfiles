@@ -13,6 +13,9 @@
 - Wallpaper: [Minimalist Space](https://www.reddit.com/r/wallpapers/comments/ccpkdj/minimalist_space_3840x2160/) (edited to remove some artifact)
 - Workflow video: [link](https://imgur.com/a/b5dpNAJ)
 
+## Workflow
+
+![video](figs/workflow.gif)
 
 ## Screenshots
 
@@ -21,8 +24,4 @@
 ![img](figs/screen_2.png)
 
 ![img](figs/screen_3.png)
-
-## Workflow
-
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/VpE4uQ4" data-context="false" ><a href="//imgur.com/a/VpE4uQ4"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
