@@ -6,11 +6,13 @@
 - WM: [yabai](https://github.com/koekeishiya/yabai) + [skhd](https://github.com/koekeishiya/skhd)
 - Bar: [simple-bar](https://www.simple-bar.com/en/)
 - DE: Aqua (default)
-- Terminal: [iterm2](https://iterm2.com)
+- Terminal: [iterm2](https://iterm2.com) (with an extra guake-like dropdown profile)
 - Music: [spotify-tui](https://github.com/Rigellute/spotify-tui)
 - Text font: `JetBrainsMonoNerdFont`
 - Icons font: `HackNerdFont`
 - Wallpaper: [Minimalist Space](https://www.reddit.com/r/wallpapers/comments/ccpkdj/minimalist_space_3840x2160/) (edited to remove some artifact)
+
+
 
 ## Screenshots
 
