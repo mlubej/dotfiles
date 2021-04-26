@@ -11,7 +11,7 @@
 - Text font: `JetBrainsMonoNerdFont`
 - Icons font: `HackNerdFont`
 - Wallpaper: [Minimalist Space](https://www.reddit.com/r/wallpapers/comments/ccpkdj/minimalist_space_3840x2160/) (edited to remove some artifact)
-
+- Workflow video: [link](https://imgur.com/a/b5dpNAJ)
 
 
 ## Screenshots
