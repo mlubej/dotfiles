@@ -1,14 +1,16 @@
 add_newline = false
 
 [aws]
+disabled=true
 format = '[$symbol($profile )(\($region\) )]($style)'
 symbol = "  "
 [aws.region_aliases]
 eu-central-1 = "eu"
 
 [cmd_duration]
+disabled=true
 min_time = 500
-format = "took [$duration](bold yellow)"
+format = "took [$duration ](bold yellow)"
 
 [directory]
 truncation_length = 3
@@ -16,7 +18,7 @@ truncation_symbol = "…/"
 home_symbol = "~"
 
 [git_branch]
-format = "[$symbol$branch]($style)"
+format = "[$symbol$branch ]($style)"
 
 [python]
 format='[${symbol}$version (\($virtualenv\)) ]($style)'

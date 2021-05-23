@@ -1,0 +1,64 @@
+{
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "test_*.py"
+    ],
+    "git.untrackedChanges": "hidden",
+    "files.trimTrailingWhitespace": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "explorer.confirmDelete": false,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.rulers": [
+        120
+    ],
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.*": true,
+        "**/.ipynb_checkpoints": true,
+        "**/.pytest_cache": true,
+        "**/.python-version": true,
+        "**/.vscode": true,
+        "**/*.egg-info": true,
+        "**/dask-worker-space": true,
+        "**/tmp": true,
+        "**/__init__.py": true
+    },
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": false,
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+    "revealjs.browserPath": "firefox",
+    "git.fetchOnPull": true,
+    "jupyter.alwaysTrustNotebooks": true,
+    "jupyter.sendSelectionToInteractiveWindow": false,
+    "jupyter.askForKernelRestart": false,
+    "terminal.integrated.shell.linux": "/usr/bin/zsh",
+    "python.languageServer": "Pylance",
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "terminal.integrated.fontFamily": "FiraMono Nerd Font",
+    "editor.fontFamily": "FiraMono Nerd Font",
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.rightClickBehavior": "paste",
+    "window.zoomLevel": 1,
+    "python.formatting.blackPath": "/Users/mlubej/.pyenv/versions/am/bin/black",
+    "aws.profile": "profile:cap",
+    "aws.onDefaultRegionMissing": "add",
+    "aws.sam.enableCodeLenses": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.lineNumbers": "relative"
+}

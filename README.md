@@ -15,13 +15,13 @@
 
 ## Workflow
 
-![video](figs/workflow.gif)
+![video](figs/2021-26-04/workflow.gif)
 
 ## Screenshots
 
-![img](figs/screen_1.png)
+![img](figs/2021-26-04/screen_1.png)
 
-![img](figs/screen_2.png)
+![img](figs/2021-26-04/screen_2.png)
 
-![img](figs/screen_3.png)
+![img](figs/2021-26-04/screen_3.png)
 
