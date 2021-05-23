@@ -1,4 +1,4 @@
-#!/usr/bin/env
+#!/usr/bin/env sh
 
 # Big Sur fix
 sudo yabai --load-sa
