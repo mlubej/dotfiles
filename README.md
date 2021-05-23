@@ -1,27 +1,31 @@
 ## Setup
 
 - OS: macOC Big Sur
-- shell: `zsh` wih [oh-my-zsh](https://ohmyz.sh) plugins ([zsh-users](https://github.com/zsh-users)) and [starship](https://starship.rs) prompt
+- Shell: `zsh` wih [oh-my-zsh](https://ohmyz.sh) plugins ([zsh-users](https://github.com/zsh-users)) and [starship](https://starship.rs) prompt
 - Color Theme (shell and `vscode`): [monokai-pro](https://monokai.pro)
-- WM: [yabai](https://github.com/koekeishiya/yabai) + [skhd](https://github.com/koekeishiya/skhd)
+- WM and shortcuts: [yabai](https://github.com/koekeishiya/yabai) + [skhd](https://github.com/koekeishiya/skhd)
+- Key mapping: [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
 - Bar: [simple-bar](https://www.simple-bar.com/en/)
 - DE: Aqua (default)
-- Terminal: [iterm2](https://iterm2.com) (with an extra guake-like dropdown profile)
+- Terminal: [kitty](https://sw.kovidgoyal.net/kitty/)
+- Dropdown Terminal: [iterm2](https://iterm2.com)
 - Music: [spotify-tui](https://github.com/Rigellute/spotify-tui)
 - Text font: `JetBrainsMonoNerdFont`
 - Icons font: `HackNerdFont`
-- Wallpaper: [Minimalist Space](https://www.reddit.com/r/wallpapers/comments/ccpkdj/minimalist_space_3840x2160/) (edited to remove some artifact)
-- Workflow video: [link](https://imgur.com/a/b5dpNAJ)
+- [Wallpaper](hhttps://www.wallpaperflare.com/minimalism-spacesuit-science-fiction-real-people-two-people-wallpaper-hiopk)
+- Firefox stuff:
+  - [FlyingFox](https://github.com/akshat46/FlyingFox) theme
+  - [nightTab](https://github.com/zombieFox/nightTab) landing page
+  - [TreeStyleTab](https://github.com/piroor/treestyletab) extension for tree-style tabs sidebar
 
-## Workflow
-
-![video](figs/2021-26-04/workflow.gif)
 
 ## Screenshots
 
-![img](figs/2021-26-04/screen_1.png)
+![img](figs/2021-05-23/screen-1.png)
 
-![img](figs/2021-26-04/screen_2.png)
+![img](figs/2021-05-23/screen-2.png)
 
-![img](figs/2021-26-04/screen_3.png)
+![img](figs/2021-05-23/screen-3.png)
+
+![img](figs/2021-05-23/screen-4.png)
 
