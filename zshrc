@@ -113,10 +113,12 @@ unsetopt nomatch
 export ZSH_HIGHLIGHT_MAXLENGTH=60
 
 # pyenv setting
-export PATH="/User/mlubej/.pyenv/bin:$PATH"
 export VIRTUAL_ENV_DISABLE_PROMPT=1
-eval "$(pyenv init -)"
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
 eval "$(pyenv virtualenv-init -)"
+eval "$(pyenv init -)"
 
 # staship shell
 eval "$(starship init zsh)"
