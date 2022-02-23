@@ -32,7 +32,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-completions history-substring-search zsh-autosuggestions zsh-syntax-highlighting zshmarks)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search zsh-completions zshmarks zsh-vim-mode)
 
 source $ZSH/oh-my-zsh.sh
 
