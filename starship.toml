@@ -1,8 +1,8 @@
 add_newline = false
 
 [aws]
-disabled=true
-format = '[$symbol($profile )(\($region\) )]($style)'
+disabled=false
+format = '[$symbol($profile)](green)'
 symbol = "  "
 [aws.region_aliases]
 eu-central-1 = "eu"
