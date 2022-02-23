@@ -91,7 +91,7 @@ alias d="deletemark"
 alias p="showmarks"
 
 # function for swapping
-function swap()         
+function swap()
 {
     local TMPFILE=tmp.$$
     mv "$1" $TMPFILE
@@ -122,10 +122,3 @@ eval "$(pyenv init -)"
 
 # staship shell
 eval "$(starship init zsh)"
-
-# AWS defualt
-#export AWS_PROFILE='cap'
-#export AWS_DEFAULT_REGION='eu-central-1'
-
-# kitty
-export KITTY_CONFIG_DIRECTORY="/Users/$USER/.config/kitty"
