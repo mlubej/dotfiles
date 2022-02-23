@@ -93,5 +93,13 @@
         "key": "cmd+r",
         "command": "-workbench.action.reloadWindow",
         "when": "isDevelopment"
+    },
+    {
+        "key": "cmd+0",
+        "command": "workbench.action.zoomReset"
+    },
+    {
+        "key": "cmd+numpad0",
+        "command": "-workbench.action.zoomReset"
     }
 ]

@@ -1,64 +1,103 @@
 {
-    "python.testing.pytestEnabled": true,
-    "python.testing.pytestArgs": [
-        "test_*.py"
-    ],
-    "git.untrackedChanges": "hidden",
-    "files.trimTrailingWhitespace": true,
+    "[json]": {
+        "editor.formatOnSave": false,
+        "editor.tabSize": 2
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2
+    },
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.formatOnSave": true,
+        "editor.rulers": [
+            120
+        ]
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.cursorStyle": "line",
+    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.formatOnSave": false,
+    "editor.detectIndentation": true,
+    "editor.insertSpaces": true,
+    "editor.lineNumbers": "relative",
+    "editor.tabSize": 4,
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.wordWrap": "off",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1000,
-    "explorer.confirmDelete": false,
-    "git.enableSmartCommit": true,
-    "git.confirmSync": false,
-    "git.autofetch": true,
-    "explorer.confirmDragAndDrop": false,
-    "editor.rulers": [
-        120
-    ],
     "files.exclude": {
-        "**/__pycache__": true,
-        "**/.*": true,
+        "**/*.egg-info": true,
         "**/.ipynb_checkpoints": true,
         "**/.pytest_cache": true,
         "**/.python-version": true,
         "**/.vscode": true,
-        "**/*.egg-info": true,
+        "**/__pycache__": true,
         "**/dask-worker-space": true,
-        "**/tmp": true,
-        "**/__init__.py": true
+        "**/tmp": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.fetchOnPull": true,
+    "jupyter.askForKernelRestart": false,
+    "jupyter.sendSelectionToInteractiveWindow": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
     },
     "python.formatting.provider": "black",
-    "editor.formatOnSave": false,
-    "[python]": {
-        "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        },
-    },
-    "revealjs.browserPath": "firefox",
-    "git.fetchOnPull": true,
-    "jupyter.alwaysTrustNotebooks": true,
-    "jupyter.sendSelectionToInteractiveWindow": false,
-    "jupyter.askForKernelRestart": false,
-    "terminal.integrated.shell.linux": "/usr/bin/zsh",
-    "python.languageServer": "Pylance",
-    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
-    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
+    "python.testing.pytestArgs": [
+        "test_*.py"
     ],
-    "terminal.integrated.fontFamily": "FiraMono Nerd Font",
-    "editor.fontFamily": "FiraMono Nerd Font",
+    "python.testing.pytestEnabled": true,
+    "revealjs.browserPath": "/Applications/Google Chrome.app",
+    "security.workspace.trust.untrustedFiles": "open",
     "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.fontFamily": "FiraMono Nerd Font",
+    "terminal.integrated.inheritEnv": false,
     "terminal.integrated.rightClickBehavior": "paste",
-    "window.zoomLevel": 1,
-    "python.formatting.blackPath": "/Users/mlubej/.pyenv/versions/am/bin/black",
-    "aws.profile": "profile:cap",
-    "aws.onDefaultRegionMissing": "add",
-    "aws.sam.enableCodeLenses": false,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "editor.lineNumbers": "relative"
+    "terminal.integrated.tabs.enabled": true,
+    "vim.smartRelativeLine": true,
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.allowChords": false,
+    "git.untrackedChanges": "hidden",
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "switch:command",
+        "pull:command",
+        "push:command"
+    ],
+    "gitlens.remotes": [
+        {
+            "domain": "git.sinergise.com",
+            "type": "GitLab"
+        },
+        {
+            "domain": "gitext.sinergise.com",
+            "type": "Custom"
+        },
+    ],
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "l13Diff.confirmDelete": false,
+    "l13Diff.confirmCopy": false,
+    "jupyter.pythonExportMethod": "nbconvert",
+    "json.schemas": [],
+    "zenMode.centerLayout": false,
+    "window.zoomLevel": 1
 }
