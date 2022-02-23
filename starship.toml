@@ -20,6 +20,19 @@ home_symbol = "~"
 [git_branch]
 format = "[$symbol$branch ]($style)"
 
+[git_status]
+ahead = "⇡${count}"
+behind = "⇣${count}"
+stashed = false
+
 [python]
 format='[${symbol}$version (\($virtualenv\)) ]($style)'
 symbol = " "
+detect_extensions = []
+detect_files = []
+
+[docker_context]
+disabled=true
+
+[time]
+disabled = false
