@@ -32,7 +32,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search zsh-completions zshmarks zsh-vim-mode)
+plugins=(git zsh-autosuggestions zsh-history-substring-search zsh-completions zshmarks zsh-vim-mode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -122,3 +122,13 @@ eval "$(pyenv init -)"
 
 # staship shell
 eval "$(starship init zsh)"
+
+# aws profile
+aws_switch() {
+    export AWS_PROFILE="$1"
+}
+
+aws_login() {
+    aws_switch $1
+    aws sso login
+}
